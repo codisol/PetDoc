@@ -1,0 +1,14 @@
+.article {
+    width: min(100ch, 80vw);
+    height: 16ch;
+    display: grid;
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.article * {
+    font-family: "Comic Sans MS", sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
