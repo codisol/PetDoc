@@ -1,0 +1,154 @@
+@import url('https://fonts.cdnfonts.com/css/darumadrop-one');
+@import url('https://fonts.cdnfonts.com/css/castoro');
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo > * {
+    margin: 1rem;
+    height: 3rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: #CAB899;
+    width: 100%;
+}
+
+.head-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 500px) {
+    .head-nav {
+        overflow-x: scroll;
+    }
+}
+
+.nav-link {
+    color: white;
+    font-family: "Castoro", serif;
+}
+
+.profile {
+    background-color: bisque;
+    min-width: 48px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.nav-link:hover {
+    color: gray;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-family: "Castoro", serif;
+    padding: 1rem;
+}
+
+.main-title {
+    width: 100%;
+    padding: min(25vw, 120px) 0;
+    text-align: center;
+    font-family: "Darumadrop One", sans-serif;
+    font-size: 6rem;
+    background-image: url("capybara.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+section {
+    display: grid;
+    gap: 1rem;
+}
+
+section h3 {
+    text-align: center;
+}
+
+.section-name {
+    font-family: "Castoro", serif;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    padding: 0 2rem;
+    overflow-x: auto;
+}
+
+.store {
+    display: grid;
+    background-color: antiquewhite;
+    width: 240px;
+    height: 360px;
+    border-radius: 0.5rem;
+}
+
+.store > img {
+    width: 100%;
+    height: 135px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.article {
+    width: 320px;
+    height: 180px;
+    border-radius: 1rem;
+    background-color: peachpuff;
+    font-family: "Comic Sans MS", sans-serif;
+    text-overflow: ellipsis;
+    overflow-y: hidden;
+    padding: 1rem;
+}
+
+.service {
+    width: 8rem;
+    height: 8rem;
+    background-color: #CAB899;
+    border-radius: 4rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    height: 20vh;
+}
