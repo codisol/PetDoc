@@ -1,0 +1,13 @@
+.thread {
+    display: grid;
+    width: min(128ch, 80vw);
+    background-color: beige;
+    padding: 2rem;
+}
+
+.thread * {
+    border-top: 2px solid #0000007F;
+    width: 70vw;
+    text-align: justify;
+    padding: 2rem 0;
+}
