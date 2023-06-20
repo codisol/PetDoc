@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 
-a {
-    display: block;
-    text-decoration: none;
-    color: black;
-}
-
 .forum {
     width: min(100ch, 80vw);
     height: 16ch;
