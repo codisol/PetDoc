@@ -1,12 +1,14 @@
 section {
-    background-color: beige;
+    background-color: peachpuff;
     width: 80vw;
     padding: 2rem;
     border-radius: 2rem;
 }
 
 .article {
-    height: fit-content;
+    height: min-content;
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
 .article * {
