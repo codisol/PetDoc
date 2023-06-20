@@ -1,0 +1,36 @@
+section {
+    background-color: beige;
+    font-family: "Noto Sans", sans-serif;
+    width: min(128ch, 80vw);
+}
+
+.thread * {
+    text-align: justify;
+    padding: 1rem 2rem;
+}
+
+.thread .user h4 {
+    padding: 0;
+}
+
+.comment {
+    padding: 1rem 2rem;
+}
+
+.comment p {
+    padding: 1rem 0;
+}
+
+.user {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.pic {
+    width: 2rem;
+    height: 2rem;
+    background-color: greenyellow;
+    border-radius: 1rem;
+    padding: 0;
+}
