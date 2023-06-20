@@ -1,13 +1,36 @@
-.thread {
-    display: grid;
-    width: min(128ch, 80vw);
+section {
     background-color: beige;
-    padding: 2rem;
+    font-family: "Noto Sans", sans-serif;
+    width: min(128ch, 80vw);
 }
 
 .thread * {
-    border-top: 2px solid #0000007F;
-    width: 70vw;
     text-align: justify;
-    padding: 2rem 0;
+    padding: 1rem 2rem;
+}
+
+.thread .user h4 {
+    padding: 0;
+}
+
+.comment {
+    padding: 1rem 2rem;
+}
+
+.comment p {
+    padding: 1rem 0;
+}
+
+.user {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.pic {
+    width: 2rem;
+    height: 2rem;
+    background-color: greenyellow;
+    border-radius: 1rem;
+    padding: 0;
 }
