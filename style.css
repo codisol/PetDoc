@@ -89,6 +89,7 @@ h2 {
 section {
     display: grid;
     gap: 1rem;
+    margin: 0 4rem;
 }
 
 section h3 {
@@ -106,6 +107,13 @@ section h3 {
     gap: 2rem;
     padding: 0 2rem;
     overflow-x: auto;
+}
+
+section a,
+.container a {
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
 .store {
