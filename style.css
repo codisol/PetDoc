@@ -110,6 +110,7 @@ section h3 {
 
 .store {
     display: grid;
+    grid-template-rows: 2fr 1fr 3fr;
     background-color: antiquewhite;
     width: 240px;
     height: 360px;
@@ -118,9 +119,11 @@ section h3 {
 
 .store > img {
     width: 100%;
-    height: 135px;
+    height: 100px;
+    object-fit: cover;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
+    justify-self: center;
 }
 
 .article {
