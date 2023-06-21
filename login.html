@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+
+<body>
+    <header class="head">
+        <div class="logo">
+            <img src="Logo.png" alt="logo">
+        </div>
+        <nav class="head-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="forum.html" class="nav-link">Forum</a>
+            <a href="store.html" class="nav-link">Store</a>
+            <a href="article.html" class="nav-link">Article</a>
+            <a href="about.html" class="nav-link">About</a>
+        </nav>
+        <div class="profile"></div>
+    </header>
+    <main>
+        <h3>Welcome to PetDoc!</h3>
+        <form action="index.html" method="post">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"/>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"/>
+            <a href="register.html">
+                <button type="button" id="register">Register</button>
+            </a>
+            <button type="submit">Login</button>
+        </form>
+    </main>
+</body>
+
+</html>

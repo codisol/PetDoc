@@ -1,0 +1,21 @@
+main {
+    margin: 2rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: lemonchiffon;
+    border-radius: 2rem;
+}
+
+a {
+    grid-column: span 2;
+}
+
+button {
+    grid-column: span 2;
+    width: 100%;
+}
