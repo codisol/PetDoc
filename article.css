@@ -2,13 +2,13 @@
     width: min(100ch, 80vw);
     height: 16ch;
     display: grid;
-    background-color: bisque;
-    padding: 1rem;
+    background-color: peachpuff;
     border-radius: 0.5rem;
 }
 
 .article * {
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Helvetica", serif;
+    text-align: justify;
     text-overflow: ellipsis;
     overflow: hidden;
 }

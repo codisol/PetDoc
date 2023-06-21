@@ -1,0 +1,34 @@
+section {
+    background-color: peachpuff;
+    width: 80vw;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.article {
+    height: min-content;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.article * {
+    overflow: visible;
+}
+
+.comment p {
+    padding: 1rem 0;
+}
+
+.user {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.pic {
+    width: 2rem;
+    height: 2rem;
+    background-color: greenyellow;
+    border-radius: 1rem;
+    padding: 0;
+}
